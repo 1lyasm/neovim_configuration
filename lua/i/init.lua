@@ -34,7 +34,7 @@ vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
 
-local ok, _ = pcall(vim.cmd, 'colorscheme catppuccin-latte')
+local ok, _ = pcall(vim.cmd, 'colorscheme catppuccin-mocha')
 if not ok then
   vim.cmd 'colorscheme default' -- if the above fails, then use default
 end
