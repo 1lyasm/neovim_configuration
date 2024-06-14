@@ -10,6 +10,11 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 cargo install tree-sitter-cli
 ```
 
+Install dependencies (for Windows Powershell)
+```
+git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+```
+
 Sync packages
 
 
