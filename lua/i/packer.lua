@@ -62,6 +62,9 @@ return require('packer').startup(function(use)
             -- Snippets
             { 'L3MON4D3/LuaSnip' },
             { 'rafamadriz/friendly-snippets' },
+
+            -- Python syntax highlighting
+            use 'numirias/semshi'
         }
     }
 end)
