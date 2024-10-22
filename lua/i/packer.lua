@@ -67,4 +67,6 @@ return require('packer').startup(function(use)
             use 'numirias/semshi'
         }
     }
+
+    use("github/copilot.vim")
 end)
